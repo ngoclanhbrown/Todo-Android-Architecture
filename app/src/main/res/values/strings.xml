@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Todo</string>
+
+    <!-- Navigation destination title -->
+    <string name="fragment_home_title">Todo</string>
+
 </resources>
