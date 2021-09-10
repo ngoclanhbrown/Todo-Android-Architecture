@@ -14,4 +14,6 @@ class TaskRepository @Inject constructor(
 
     suspend fun upsertTask(task: Task) = taskDao.upsertTask(task)
 
+    suspend fun clearAllCompletedTasks() = taskDao.clearAllCompletedTasks()
+
 }

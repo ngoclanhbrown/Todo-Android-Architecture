@@ -5,6 +5,14 @@
     <string name="fragment_home_title">Todo</string>
     <string name="fragment_add_task_title">New Task</string>
 
+    <!-- HomeFragment -->
+    <string name="menu_item_filter">Filter</string>
+    <string name="menu_item_clear_completed">Clear completed</string>
+
+    <string name="menu_item_filter_all">All</string>
+    <string name="menu_item_filter_active">Active</string>
+    <string name="menu_item_filter_completed">Completed</string>
+
     <!-- AddTaskFragment -->
     <string name="title_hint">Title</string>
     <string name="description_hint">Enter your task here.</string>

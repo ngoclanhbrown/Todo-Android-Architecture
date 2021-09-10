@@ -13,3 +13,7 @@ data class Task(
     val id: String = UUID.randomUUID().toString(),
     val timestamp: Long = System.currentTimeMillis()
 )
+
+enum class TaskFilter {
+    ALL, ACTIVE, COMPLETED
+}
