@@ -9,6 +9,18 @@
         android:id="@+id/home_fragment"
         android:name="com.brown.todo.ui.screen.home.HomeFragment"
         android:label="@string/fragment_home_title"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_add_new_task"
+            app:destination="@id/add_task_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_task_fragment"
+        android:name="com.brown.todo.ui.screen.add.AddTaskFragment"
+        android:label="@string/fragment_add_task_title"
+        tools:layout="@layout/fragment_add_task" />
 
 </navigation>

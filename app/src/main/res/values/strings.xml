@@ -3,5 +3,11 @@
 
     <!-- Navigation destination title -->
     <string name="fragment_home_title">Todo</string>
+    <string name="fragment_add_task_title">New Task</string>
+
+    <!-- AddTaskFragment -->
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Enter your task here.</string>
+    <string name="title_empty_warning">Task\'s title cannot be empty</string>
 
 </resources>

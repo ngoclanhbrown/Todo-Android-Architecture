@@ -10,5 +10,6 @@ data class Task(
     val description: String,
     val completed: Boolean = false,
     @PrimaryKey
-    val id: String = UUID.randomUUID().toString()
+    val id: String = UUID.randomUUID().toString(),
+    val timestamp: Long = System.currentTimeMillis()
 )
